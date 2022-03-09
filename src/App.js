@@ -1,6 +1,8 @@
-import Comments from "./components/comments/Comments";
+import { useState } from "react";
+import { Comments } from "./components";
 
 function App() {
+  const [input, setInput] = useState("");
   return (
     <div className='App'>
       <Comments />
